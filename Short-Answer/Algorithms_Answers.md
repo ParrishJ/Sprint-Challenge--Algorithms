@@ -20,4 +20,16 @@ In the worst case scenario, the number of times that the bunnyEars function runs
 
 ## Exercise II
 
+From the way this question is posed, my understanding is that we could write an algorithm such that only only one egg is broken. 
 
+To accomplish this, I would:
+
+- First make sure the input value f was in an itterable format. If not, I would put it into a list or or some other itterable format.
+
+- I would then loop through f, and at each itteration / floor, I would throw an egg and see if it was broken.
+
+- At the first floor, I would throw an egg. If the egg broke, then f would be equal to the first floor, and we would have broken only one egg. I would then return i ( the itteration of the loop we were on).
+
+- If the egg did not break, I would advance to the next floor, and repeat this process until I reached the floor where the egg broke. I would then return i ( the itteration of the loop we were on).
+
+- The runtime complexity of the algorithm would be O(n), or linear. In the worst case, f would be the very top floor / end of the list, meaning that the time complexity would grow proportionally to the number of floors in f. 
