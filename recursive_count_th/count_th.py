@@ -30,6 +30,3 @@ def count_th(word):
          
     helper(word) 
     return occurances
-
-
-print(count_th('thabcthabc'))
