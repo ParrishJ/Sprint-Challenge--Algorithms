@@ -33,3 +33,6 @@ To accomplish this, I would:
 - If the egg did not break, I would advance to the next floor, and repeat this process until I reached the floor where the egg broke. I would then return i ( the itteration of the loop we were on).
 
 - The runtime complexity of the algorithm would be O(n), or linear. In the worst case, f would be the very top floor / end of the list, meaning that the time complexity would grow proportionally to the number of floors in f. 
+
+
+** We could also solve this using a binary search which be the most efficient way to solve this. The time complexity for binary search is O(n log n)
